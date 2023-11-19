@@ -1,7 +1,8 @@
-*重要*
-*基础环境：GCC-11,PYTHON 3.10*
+*重要：*
+基础环境：GCC-11,PYTHON 3.10
 
-最好用CONDA
+WINDOWS未测试
+最好用WSL
 
 cd localGPT
 
