@@ -4,18 +4,18 @@
 WINDOWS未测试
 最好用WSL
 
-cd localGPT
+cd PolyUGPT
 
 pip install -r requirements.txt
 
 CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install llama-cpp-python==0.1.83 --no-cache-dir
 
 处理文本：
-python localGPT/ingest.py
+python PolyUGPT/ingest.py
 （已处理 可省略）
 
 CMD运行：第一次运行会下载模型LLAMA-7B-CHAT
-python localGPT/run_localGPT.py
+python PolyUGPT/run_PolyUGPT.py
 
 WEBUI运行：
-python localGPT/run_localGPT_API.py
+python PolyUGPT/run_PolyUGPT_API.py
