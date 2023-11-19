@@ -10,7 +10,7 @@ from langchain.chains import RetrievalQA
 from langchain.embeddings import HuggingFaceInstructEmbeddings
 
 # from langchain.embeddings import HuggingFaceEmbeddings
-from run_localGPT import load_model
+from run_PolyUGPT import load_model
 from prompt_template_utils import get_prompt_template
 
 # from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
