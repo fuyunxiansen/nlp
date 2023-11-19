@@ -14,7 +14,7 @@ CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install llama-cpp-python==0.1.8
 python localGPT/ingest.py
 （已处理 可省略）
 
-CMD运行：
+CMD运行：第一次运行会下载模型LLAMA-7B-CHAT
 python localGPT/run_localGPT.py
 
 WEBUI运行：
