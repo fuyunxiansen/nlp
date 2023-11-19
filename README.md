@@ -11,9 +11,10 @@ CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install llama-cpp-python==0.1.8
 
 处理文本：
 python localGPT/ingest.py
+（已处理 可省略）
 
 CMD运行：
 python localGPT/run_localGPT.py
 
 WEBUI运行：
-!python localGPT/run_localGPT_API.py
+python localGPT/run_localGPT_API.py
